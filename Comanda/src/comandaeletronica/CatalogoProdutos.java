@@ -10,9 +10,8 @@ public class CatalogoProdutos {
         produtos = new ArrayList<Produto>();
     }
 
-    public void cadastrarProduto(Produto p) {
-        
-    }
+    public void cadastrarProduto(Produto p) {produtos.add(p);}
+
 
     public String formatarParaImpressao() {
         StringBuilder sb = new StringBuilder();

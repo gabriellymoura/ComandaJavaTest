@@ -6,9 +6,9 @@ public class Produto {
 
     private int codigo;
     private String descricao;
-    private int precoUnitario;
+    private float precoUnitario;
 
-    public Produto(int c, String d, int p) {
+    public Produto(int c, String d, float p) {
         codigo = c;
         descricao = d;
         precoUnitario = p;
@@ -23,7 +23,7 @@ public class Produto {
     }
 
     public void setCodigo(int codigo) {
-        this.codigo = precoUnitario;
+        this.codigo = codigo;
     }
 
     public String getDescricao() {
@@ -39,7 +39,7 @@ public class Produto {
     }
 
     public void setPrecoUnitario(float precoUnitario) {
-        this.precoUnitario = codigo;
+        this.precoUnitario = precoUnitario;
     }
    
 }

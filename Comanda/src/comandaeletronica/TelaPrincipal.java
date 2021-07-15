@@ -71,9 +71,8 @@ package comandaeletronica;
 	        int c = Integer.parseInt(op);
 	        String d = JOptionPane.showInputDialog("Descri��o: ");
 	        op = JOptionPane.showInputDialog("Preco Unit�rio: ");
-	        float p = Float.parseFloat(op);
-//	        return new Produto(c, d, p);
-			return null;
+	        Float p = Float.parseFloat(op);
+	        return new Produto(c, d, p);
 	    }
 
 	    public static ItemComanda lerItem(CatalogoProdutos catalogo) {
